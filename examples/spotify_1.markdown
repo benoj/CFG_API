@@ -23,7 +23,7 @@ __What is this response?__
 1. Choose an album and copy the album id 
 2. change the desitnation in hurl.it to the following value (replacing {ID} with the artist id and {ALBUM_ID} with the album id)
 ```
-https://api.spotify.com/v1/artists/{ID}/albums/{ALBUM_ID}
+https://api.spotify.com/v1/albums/{ALBUM_ID}
 ```
 
 __What is this response?__
