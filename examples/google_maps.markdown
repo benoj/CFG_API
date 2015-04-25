@@ -16,27 +16,29 @@ Google Maps Example:
 14. Copy the API Key 
   
 
-What have we just done?
+__What have we just done?__
 
-Are there any security issues?
+__Are there any security issues?__
 
   
 
 1. open up a text editor 
-2. put in the following code (replacing API_KEY with the generated key)&lt;iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=API_KEY &q=London"&gt; &lt;/iframe&gt; 
+2. put in the following code (replacing API_KEY with the generated key)
+
+
+    <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=API_KEY &q=London"></iframe>
 3. open up this file in a browser 
   
 
-What have we just done?
+__What have we just done?__
 
-What happens if we put in garbage into the API_KEY?
+__What happens if we put in garbage into the API_KEY?__
 
-Can we change ‘London’ to something else?
+__Can we change ‘London’ to something else?__
 
   
-
 1. open up a text editor 
-2. put in the following code (replacing API_KEY with the generated key)&lt;iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions ?key=API_KEY &origin=London&destination=Newcastle"&gt; &lt;/iframe&gt; 
+2. put in the following code (replacing API_KEY with the generated key)`<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions ?key=API_KEY &origin=London&destination=Newcastle"> </iframe>`
 3. open up this file in a browser 
   
 
