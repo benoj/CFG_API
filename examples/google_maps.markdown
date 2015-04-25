@@ -24,9 +24,9 @@ __Are there any security issues?__
 
 1. open up a text editor 
 2. put in the following code (replacing API_KEY with the generated key)
-
-
-    <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=API_KEY &q=London"></iframe>
+```html
+<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=API_KEY &q=London"></iframe>
+```
 3. open up this file in a browser 
   
 
@@ -38,7 +38,10 @@ __Can we change ‘London’ to something else?__
 
   
 1. open up a text editor 
-2. put in the following code (replacing API_KEY with the generated key)`<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions ?key=API_KEY &origin=London&destination=Newcastle"> </iframe>`
+2. put in the following code (replacing API_KEY with the generated key)
+```html
+<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions ?key=API_KEY &origin=London&destination=Newcastle"> </iframe>
+```
 3. open up this file in a browser 
   
 
