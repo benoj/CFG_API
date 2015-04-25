@@ -37,7 +37,7 @@ __What have we done?__
 
 1. Change the destination value to
 ```
-https://api.spotify.com/v1/users/{user_id}/playlists/tracks
+https://api.spotify.com/v1/users/{user_id}/playlists/{playlist_id}/tracks
 ```
 2. Change the body to
 ```json 
