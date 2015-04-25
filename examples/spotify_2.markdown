@@ -25,8 +25,8 @@ https://api.spotify.com/v1/users/{user_id}/playlists]
 4. put in the body the following value  
 ```json
 {
-"name": "Code First Girls Tutorial",
-"public": true
+  "name": "Code First Girls Tutorial",
+  "public": true
 }
 ```
 5. click launch request 
