@@ -51,7 +51,7 @@ def index():
 
 @app.route('/login')
 def login():
-    callback_url = url_for('oauth_callback', next=request.args.get('next'))
+    callback_url = url_for('oauthorized', next=request.args.get('next'))
     return twitter.authorize(callback=callback_url or request.referrer or None)
 
 
@@ -61,7 +61,7 @@ def logout():
     return redirect(url_for('index'))
 
 
-@app.route('/oauth_callback')
+@app.route('/oauthorized')
 def oauthorized():
     resp = twitter.authorized_response()
     if resp is None:
