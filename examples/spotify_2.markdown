@@ -19,7 +19,7 @@ __How did it know who ‘me’ was?__
 1. Change the destination type to POST 
 2. change the destination value to the following (change {user_id} to your username)
 ```
-https://api.spotify.com/v1/users/{user_id}/playlists]
+https://api.spotify.com/v1/users/{user_id}/playlists
 ```
 3. Click add body 
 4. put in the body the following value  
