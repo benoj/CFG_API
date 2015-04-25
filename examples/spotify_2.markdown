@@ -1,4 +1,4 @@
-1. go to [http://goo.gl/tq0Cgw](http://goo.gl/tq0Cgw) in your browser 
+1. go to [https://developer.spotify.com/web-api/console/post-playlists/](https://developer.spotify.com/web-api/console/post-playlists/) in your browser 
 2. click ‘get oauth token’ and check all the boxes that come up when asked. You can either create an account or use your existing account.  
 3. copy the token 
 4. go to [http://hurl.it](http://hurl.it) 
