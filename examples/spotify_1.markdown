@@ -30,5 +30,5 @@ __What is this response?__
 
 1. change the desitnation in hurl.it to the following value
 ```
-https://api.spotify.com/v1/artists/{ID}/albums/{ALBUM_ID}/tracks
+https://api.spotify.com/v1/albums/{ALBUM_ID}/tracks
 ```
